@@ -1,0 +1,14 @@
+pluginManagement {
+	repositories {
+		mavenCentral()
+	}
+}
+
+dependencyResolutionManagement {
+	repositories {
+		mavenCentral()
+	}
+}
+
+rootProject.name = 'Study Java Language'
+include ':app_springboot:basic'
