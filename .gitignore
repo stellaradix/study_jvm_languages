@@ -1,0 +1,35 @@
+#
+# Gitignore Whitelist of Java, Kotlin
+#
+
+# Common List of Project
+*
+!*/
+!.gitattributes
+!.gitignore
+!.gitkeep
+!*.[Mm][Dd]
+
+# Build Output Directory
+**/bin/
+**/out/
+**/build/
+
+# Programming Language > Java, Kotlin
+!*.java
+!*.kt
+
+# Build Tool > Gradle
+!settings.gradle
+!**/build.gradle
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+**/.gradle/
+
+# Editor > JetBrains
+**/.idea/
+
+# Editor > VSCode
+**/.vscode/
