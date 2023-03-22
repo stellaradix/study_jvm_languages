@@ -15,3 +15,4 @@ rootProject.name = 'Study Java Language'
 include ':app_springboot:basic'
 
 include ':object_oriented:gof_creational_pattern:singleton'
+include ':object_oriented:gof_creational_pattern:factory_method'
