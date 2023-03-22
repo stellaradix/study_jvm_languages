@@ -16,3 +16,6 @@ include ':app_springboot:basic'
 
 include ':object_oriented:gof_creational_pattern:singleton'
 include ':object_oriented:gof_creational_pattern:factory_method'
+include 'object_oriented:gof_creational_pattern:abstract_factory'
+findProject(':object_oriented:gof_creational_pattern:abstract_factory')?.name = 'abstract_factory'
+
