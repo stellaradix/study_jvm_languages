@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+}
+
+group 'com.study.creational_singleton'
+version '0.0.1-SNAPSHOT'
+
+dependencies {
+	testImplementation platform("org.junit:junit-bom:$test_junit_bom")
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+	useJUnitPlatform()
+}

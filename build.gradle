@@ -4,5 +4,5 @@ plugins {
 }
 
 ext {
-
+	test_junit_bom = '5.9.+'
 }

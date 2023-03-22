@@ -11,4 +11,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'Study Java Language'
+
 include ':app_springboot:basic'
+
+include ':object_oriented:gof_creational_pattern:singleton'
