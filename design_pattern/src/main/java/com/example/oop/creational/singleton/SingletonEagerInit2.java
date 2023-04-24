@@ -25,6 +25,6 @@ public class SingletonEagerInit2 {
 	}
 
 	public static SingletonEagerInit2 getInstance() {
-		return null;
+		return INSTANCE;
 	}
 }
