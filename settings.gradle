@@ -11,3 +11,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'Study Java Language'
+include ':spring:boot:web'
+include ':system:reactive'
