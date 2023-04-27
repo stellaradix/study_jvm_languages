@@ -11,6 +11,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'Study Java Language'
-include ':puzzle:algorithm'
-include ':system:reactive_java'
+include ':library:reactive_x'
+include ':logic:algorithm'
 include ':spring:boot_web'

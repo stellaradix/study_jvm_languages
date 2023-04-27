@@ -1,4 +1,4 @@
-package com.example.reactivex;
+package com.example.reactive_x;
 
 import io.reactivex.rxjava3.core.Observable;
 import org.junit.jupiter.api.Test;

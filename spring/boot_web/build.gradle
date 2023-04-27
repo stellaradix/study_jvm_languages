@@ -12,7 +12,7 @@ targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
 
-	// Spring
+	// Spring Boot
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

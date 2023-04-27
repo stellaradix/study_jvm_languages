@@ -1,4 +1,4 @@
-package com.example.reactivex;
+package com.example.reactive_x;
 
 import io.reactivex.rxjava3.core.Flowable;
 import org.junit.jupiter.api.Test;
@@ -18,8 +18,8 @@ public class _01_Start_Reactive {
 
 	private void hello(String... args) {
 		Flowable.fromArray(args)
-				.subscribe(s -> {
-					System.out.println("Hello " + s + "!");
+				.subscribe(item -> {
+					System.out.println("Hello " + item + "!");
 				});
 	}
 }

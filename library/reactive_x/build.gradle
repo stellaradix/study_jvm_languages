@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.example.reactivex'
+group = 'com.example.reactive_x'
 version = '0.0.1'
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -10,7 +10,8 @@ targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
 
-	implementation 'io.reactivex.rxjava3:rxjava:3+'
+	// Reactive Java
+	implementation "io.reactivex.rxjava3:rxjava:$reactive_x"
 
 	// JUnit5 - Test Library
 	testImplementation platform("org.junit:junit-bom:$junit_bom")
