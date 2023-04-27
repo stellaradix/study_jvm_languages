@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.example'
+group = 'com.example.reactivex'
 version = '0.0.1'
 
 sourceCompatibility = JavaVersion.VERSION_17
