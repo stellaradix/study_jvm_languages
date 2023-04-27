@@ -3,7 +3,7 @@ package com.example.reactivex;
 import io.reactivex.rxjava3.core.Observable;
 import org.junit.jupiter.api.Test;
 
-public class _03_Create_Observable {
+public class _03_Observable_create {
 
 	@Test
 	public void Observable_create_01() {
@@ -19,6 +19,7 @@ public class _03_Create_Observable {
 
 	@Test
 	public void Observable_create_02() {
+		// onComplete() 이후 구독자는 데이터를 통지 받지 못함.
 		Observable<String> source = Observable.create(emitter -> {
 			emitter.onNext("Hello");
 			emitter.onComplete();
