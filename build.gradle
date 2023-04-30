@@ -3,5 +3,5 @@ plugins {
 }
 
 ext {
-
+	junit_bom = '5.+'
 }

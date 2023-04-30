@@ -11,3 +11,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'Study Java Language'
+include ':sample:think_data_structures'
