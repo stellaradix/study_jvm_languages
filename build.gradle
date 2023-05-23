@@ -3,5 +3,5 @@ plugins {
 }
 
 ext {
-
+	junit_5 = '5.+'
 }

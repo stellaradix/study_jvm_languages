@@ -11,3 +11,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'study_jvm_languages'
+
+include ':sample:book_do_it_algorithm_java_2022'
