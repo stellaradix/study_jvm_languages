@@ -1,0 +1,20 @@
+plugins {
+	id 'java'
+}
+
+group = "com.puzzle.algorithm"
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+	// JUnit5 - Test Library
+	testImplementation platform("org.junit:junit-bom:$junit_5")
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+	useJUnitPlatform()
+}
